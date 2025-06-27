@@ -64,4 +64,22 @@ body {
     margin-top: 20px;
     font-weight: 600;
   }
+
+  .custom-footer {
+    background-color: #0094ff; /* updated to match screenshot */
+    color: white;
+    padding-top: 40px;
+    padding-bottom: 20px;
+  }
+  
+  
+  .custom-footer h6 {
+    font-weight: bold;
+  }
+  
+  .custom-footer p {
+    margin-bottom: 0.5rem;
+    font-size: 0.95rem;
+  }
+  
   
