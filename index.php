@@ -10,10 +10,11 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="styles.css">
+
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark sticky-top">
+    <nav class="navbar navbar-expand-lg bg-white sticky-top">
         <div class="container">
             <a class="navbar-brand" href="#">
                 <img src="images/logo-banner.png" alt="Mati Polytechnic College Logo">
@@ -26,12 +27,38 @@
                     <li class="nav-item">
                         <a class="nav-link active" aria-current="page" href="#">Home</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#programs">Programs</a>
+
+                    <!-- Programs Dropdown -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="programDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Programs
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="programDropdown">
+                            <li><a class="dropdown-item" href="#criminology">BS in Criminology</a></li>
+                            <li><a class="dropdown-item" href="#early-childhood">Early Childhood Education</a></li>
+                            <li><a class="dropdown-item" href="#elementary">Elementary Education</a></li>
+                            <li><a class="dropdown-item" href="#techvoc">Technical Vocational Teachers Education</a></li>
+                            <li><a class="dropdown-item" href="#bsba">BS in Business Administration (MM/FM)</a></li>
+                            <li><a class="dropdown-item" href="#hospitality">BS in Hospitality Management</a></li>
+                            <li><a class="dropdown-item" href="#highschool">Complete High School Program (JHS & SHS)</a></li>
+                            <li><a class="dropdown-item" href="#tesda">TESDA NCII/NCIII</a></li>
+                        </ul>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#about">About</a>
+
+                    <!-- About Dropdown -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="aboutDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            About
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="aboutDropdown">
+                            <li><a class="dropdown-item" href="#vmg">VMG</a></li>
+                            <li><a class="dropdown-item" href="#history">History</a></li>
+                            <li><a class="dropdown-item" href="#scholarships">Scholarships</a></li>
+                            <li><a class="dropdown-item" href="#requirements">Enrollment Requirements</a></li>
+                        </ul>
                     </li>
+
+                    <!-- Login Dropdown -->
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="loginDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                             Log-in
@@ -41,29 +68,34 @@
                             <li><a class="dropdown-item" href="https://lms.mpci.edu.ph" target="_blank">LMS</a></li>
                         </ul>
                     </li>
-
                 </ul>
             </div>
         </div>
     </nav>
 
-    <section class="hero-section">
-        <img src="images/logo-center.png" alt="College Logo" class="hero-banner">
-        <div class="container text-center">
-            <h2 class="mt-3">SINCE 1992</h2>
-            <h1>MATI POLYTECHNIC COLLEGE, INC.</h1>
-            <h5>Don Mariano Marcos Avenue, Brgy. Sainz, Mati City, Davao Oriental</h5>
-            <a href="#programs" class="btn btn-primary program-button">See Programs</a>
+    <section class="institution-banner dark-theme">
+        <div class="text-center py-4">
+            <h2 class="school-title">MATI POLYTECHNIC COLLEGE, INC.</h2>
+            <p class="school-subtitle">Don Mariano Marcos Avenue, Brgy. Sainz, Mati City, Davao Oriental</p>
         </div>
     </section>
+
+
+    <section class="hero-section d-flex align-items-center justify-content-center text-center text-white" style="background: url('images/mpci.png') no-repeat center center/cover; height: 400px;">
+        <div>
+            <img src="images/logo-center.png" alt="College Logo" class="mb-3" style="width: 150px;">
+            <h2 class="fw-bold">SINCE 1992</h2>
+            <a href="#programs" class="btn btn-primary mt-3 px-4 py-2">See Programs</a>
+        </div>
+    </section>
+
 
 
 
     <section class="py-5 text-center text-white" style="background-color: #09096f;">
         <div class="container">
             <h4 class="fw-bold mb-4">
-                Scholarship programs are being offered including <strong>CHED TES Grantees</strong> for qualified college students,<br>
-                and the <strong>Voucher Program from the Department of Education</strong> for all high school students.
+                Scholarship programs are being offered including <strong>CHED TES Grantees</strong> for qualified college students, and the <strong>Voucher Program from the Department of Education</strong> for all high school students.
             </h4>
             <a href="#scholarships" class="btn btn-primary rounded-pill px-4 py-2" style="background-color: #0094ff; border: none;">
                 Learn more

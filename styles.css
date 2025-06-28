@@ -1,85 +1,124 @@
+/* Base styles */
 body {
-    font-family: 'Poppins', sans-serif;
-    background-color: #f9f9f9;
-    margin: 0;
-    padding: 0;
-  }
-  
-  .navbar {
-    background-color: #001f73;
-  }
-  
-  .navbar-brand img {
-    height: 50px;
-  }
-  
-  .nav-link {
-    color: white !important;
-    font-weight: 500;
-  }
-  
-  .nav-link.active {
-    font-weight: 700;
-    border-bottom: 3px solid white;
-  }
-  
-  .hero-section {
-    text-align: center;
-    padding: 60px 20px;
-    background-color: white;
-  }
-  
-  .hero-section img {
-    width: 150px;
-    margin-bottom: 20px;
-  }
-  
-  .hero-section h1 {
-    font-size: 2rem;
-    font-weight: 700;
-    color: #001f73;
-  }
-  
-  .hero-section h5 {
-    color: #555;
-  }
-  
-  .main-image {
-    width: 100%;
-    height: auto;
-    max-height: 400px;
-    object-fit: cover;
-    border-radius: 12px;
-  }
-  
-  .footer {
-    background-color: #001f73;
-    color: white;
-    padding: 20px 0;
-    text-align: center;
-    margin-top: 40px;
-  }
-  
-  .program-button {
-    margin-top: 20px;
-    font-weight: 600;
-  }
+  font-family: 'Poppins', sans-serif;
+  background-color: #f9f9f9;
+  margin: 0;
+  padding: 0;
+}
 
-  .custom-footer {
-    background-color: #0094ff; /* updated to match screenshot */
-    color: white;
-    padding-top: 40px;
-    padding-bottom: 20px;
-  }
-  
-  
-  .custom-footer h6 {
-    font-weight: bold;
-  }
-  
-  .custom-footer p {
-    margin-bottom: 0.5rem;
-    font-size: 0.95rem;
-  }
-  
-  
+/* Navbar styles */
+.navbar {
+  background-color: white;
+}
+
+.navbar-brand img {
+  height: 50px;
+}
+
+.navbar-nav .nav-link {
+  color: black !important;
+  font-weight: 500 !important;
+}
+
+.navbar-nav .nav-link.active {
+  font-weight: 700 !important;
+  border-bottom: 3px solid black;
+}
+
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link:focus {
+  background-color: transparent !important;
+  color: black !important;
+}
+
+/* Dropdown menu styles */
+.dropdown-menu {
+  background-color: #ffffff !important;
+  border: 1px solid #ccc;
+}
+
+.dropdown-menu .dropdown-item {
+  color: black !important;
+}
+
+.dropdown-menu .dropdown-item:hover {
+  background-color: #f0f0f0;
+  color: black !important;
+}
+
+/* Hero section */
+.hero-section {
+  text-align: center;
+  padding: 60px 20px;
+  background-image: url('images/mpci.png');
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+  color: #000;
+}
+
+.hero-section img {
+  width: 150px;
+  margin-bottom: 20px;
+}
+
+.hero-section h2 {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #000;
+}
+
+.program-button {
+  margin-top: 20px;
+  font-weight: 600;
+}
+
+/* Main image */
+.main-image {
+  width: 100%;
+  height: auto;
+  max-height: 400px;
+  object-fit: cover;
+  border-radius: 12px;
+}
+
+/* Footer */
+.footer {
+  background-color: #001f73;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+  margin-top: 40px;
+}
+
+.custom-footer {
+  background-color: #0094ff;
+  color: white;
+  padding-top: 40px;
+  padding-bottom: 20px;
+}
+
+.custom-footer h6 {
+  font-weight: bold;
+}
+
+.custom-footer p {
+  margin-bottom: 0.5rem;
+  font-size: 0.95rem;
+}
+
+.institution-banner.dark-theme {
+  background-color: #06006b; /* deep navy */
+  color: white;
+}
+
+.school-title {
+  font-size: 2rem;
+  font-weight: 700;
+  margin: 0;
+}
+
+.school-subtitle {
+  font-size: 1rem;
+  margin: 0;
+}
