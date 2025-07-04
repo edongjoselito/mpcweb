@@ -9,11 +9,11 @@
 
     <main class="flex-grow-1">
         <!-- Banner Section -->
-        <section class="m-0 p-0">
+        <!-- <section class="m-0 p-0">
             <img src="images/banner-crim.png" alt="Enrollment Banner"
                 class="img-fluid w-100 shadow-sm"
                 style="height: 300px; object-fit: cover; display: block;">
-        </section>
+        </section> -->
 
         <!-- Enrollment Requirements Section -->
         <section class="py-5 bg-white">
@@ -32,13 +32,16 @@
 
                         <!-- For New Students -->
                         <div class="mb-5">
-                            <h4 class="fw-bold text-primary">For New Students</h4>
+                            <h4 class="fw-bold text-primary">For Incoming First Year</h4>
                             <ul class="list-group list-group-flush">
-                                <li class="list-group-item">✔ Original Form 138 (Report Card)</li>
-                                <li class="list-group-item">✔ Certificate of Good Moral Character</li>
-                                <li class="list-group-item">✔ PSA/NSO Birth Certificate (Photocopy)</li>
-                                <li class="list-group-item">✔ 2x2 and 1x1 ID Pictures (2 pcs each)</li>
-                                <li class="list-group-item">✔ Medical Certificate (from school clinic or any licensed physician)</li>
+                                <li class="list-group-item">✔ Enrollment Form</li>
+                                <li class="list-group-item">✔ Form 138 (High School Report Card)</li>
+                                <li class="list-group-item">✔ Good Moral Certificate</li>
+                                <li class="list-group-item">✔ (4) pcs. photocopy of PSA-Issued Birth Certificates</li>
+                                <li class="list-group-item">✔ (4) pcs. 2x2 or* passport size I'D pictures</li>
+                                <li class="list-group-item">✔ Barangay Certification of Indigency/ Low Income</li>
+                                <li class="list-group-item">✔ Medical Certificate</li>
+                                <li class="list-group-item">✔ Drug Test (for Criminology*)</li>
                             </ul>
                         </div>
 
@@ -46,23 +49,30 @@
                         <div class="mb-5">
                             <h4 class="fw-bold text-primary">For Transferees</h4>
                             <ul class="list-group list-group-flush">
-                                <li class="list-group-item">✔ Honorable Dismissal / Transfer Credentials</li>
-                                <li class="list-group-item">✔ Certified True Copy of Grades / Transcript of Records</li>
-                                <li class="list-group-item">✔ PSA/NSO Birth Certificate (Photocopy)</li>
-                                <li class="list-group-item">✔ 2x2 and 1x1 ID Pictures (2 pcs each)</li>
+                                <li class="list-group-item">✔ Certificate of Transfer Credentials (CTC) or Certificate of Honorable Dismissal</li>
+                                <li class="list-group-item">✔ Transcript of Records</li>
                                 <li class="list-group-item">✔ Certificate of Good Moral Character</li>
+
+                                <li class="list-group-item">✔ (4) pcs photocopy of PSA Birth Certificates</li>
+                                <li class="list-group-item">✔ (4) pcs. 2x2 or* passport size I'D pictures</li>
+                                <li class="list-group-item">✔ Barangay Certification of Indigency/Low Income</li>
                             </ul>
                         </div>
 
-                        <!-- For Returnees -->
-                        <div class="mb-4">
-                            <h4 class="fw-bold text-primary">For Returnees</h4>
+                        <div class="mb-5">
+                            <h4 class="fw-bold text-primary">For Incoming Grade 7 and 11</h4>
                             <ul class="list-group list-group-flush">
-                                <li class="list-group-item">✔ Clearance from the Registrar and Accounting Office</li>
-                                <li class="list-group-item">✔ Latest Class Card or copy of grades</li>
-                                <li class="list-group-item">✔ Re-admission Form (available at the Registrar's Office)</li>
+                                <li class="list-group-item">✔ Form 138 (Report Card)</li>
+                                <li class="list-group-item">✔ Good Moral Certificate</li>
+                                <li class="list-group-item">✔ PSA-Issued Birth Certificate</li>
+
+                                <li class="list-group-item">✔ (4) pcs. 2x2 I'D pictures</li>
+                                <li class="list-group-item">✔ A&E Assessment and Certification (if ALS)</li>
+                                <li class="list-group-item">✔ Notarized Certificate of Low Income (Parents and Guardian)</li>
+                                <li class="list-group-item">✔ Green envelope</li>
                             </ul>
                         </div>
+
 
                         <!-- Enrollment Note -->
                         <div class="alert alert-warning text-center shadow-sm mt-5">

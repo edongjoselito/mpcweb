@@ -8,13 +8,6 @@
     <?php include('includes/nav.php'); ?>
 
     <main class="flex-grow-1">
-        <!-- Banner Section -->
-        <section class="m-0 p-0">
-            <img src="images/banner-crim.png" alt="History Banner"
-                class="img-fluid w-100 shadow-sm"
-                style="height: 300px; object-fit: cover; display: block;">
-        </section>
-
         <!-- History Section -->
         <section class="py-5 bg-white">
             <div class="container">
@@ -29,35 +22,23 @@
                 <!-- Historical Content -->
                 <div class="row justify-content-center">
                     <div class="col-lg-10">
-
-                        <div class="mb-5">
-                            <h4 class="fw-bold text-primary">Founding Years (1965 - 1975)</h4>
-                            <p class="text-muted">
-                                Established in 1965, the school began as a modest learning center with a handful of students and dedicated educators. Its primary goal was to provide accessible education to the underserved rural community.
-                            </p>
-                        </div>
-
-                        <div class="mb-5">
-                            <h4 class="fw-bold text-primary">Expansion and Recognition (1980 - 1995)</h4>
-                            <p class="text-muted">
-                                The 1980s marked a period of rapid expansion. New academic programs were introduced, and modern facilities were built. In 1992, the institution was officially recognized as a leading academic provider in the region.
-                            </p>
-                        </div>
-
-                        <div class="mb-5">
-                            <h4 class="fw-bold text-primary">Modernization Era (2000 - 2015)</h4>
-                            <p class="text-muted">
-                                Embracing technological advancement, the school integrated digital tools into its curriculum and underwent campus-wide renovations to support growing enrollment and evolving educational needs.
-                            </p>
-                        </div>
-
                         <div class="mb-4">
-                            <h4 class="fw-bold text-primary">Today and Beyond</h4>
                             <p class="text-muted">
-                                Today, the institution stands as a beacon of excellence and innovation in education. It continues to uphold its founding values while preparing students to meet the challenges of a globalized world.
+                                Mati Polytechnic Institute had a successful year in 1997. Mati Polytechnic Institute underwent substantial transformational transitions from being an Institute to a College.
+                            </p>
+                            <p class="text-muted">
+                                Still noting an inadequacy in the educational demands of Davao Oriental youths, Dr. Aresio M. Agbong, the founder-president, obtained clearance for providing four-year courses of the then Department of Education, Culture, and Sports (DECS). Indeed, the institution was granted permission to offer the following bachelor's courses: Bachelor of Science in Criminology (July 9, 1997), Bachelor of Science in Commerce (October 16, 1997), and Bachelor of Elementary Education (November 25, 1997).
+                            </p>
+                            <p class="text-muted">
+                                With these permits, the school was able to apply for a change of name from Mati Polytechnic Institute (MPI) to Mati Polytechnic College (MPC) and was given its final approval by the Securities and Exchange Commission last April 18, 2000.
+                            </p>
+                            <p class="text-muted">
+                                Following the clearance of its application with CHED, MPC opened its doors to the K-12 program. The president added amenities to the junior and senior high school rooms, such as air-conditioned rooms, a canteen, a library, and other facilities.
+                            </p>
+                            <p class="text-muted">
+                                Above all, Mati Polytechnic College (MPC) is now ever committed to the total transformation of the academic and technical well-being of the youth of Davao Oriental; it continues to bring hope to thousands of youth in the region by providing many opportunities in enhancing their idealism and dreams, with the understanding that one day, they will be the bearers of huge social progress and development in their own respective fields. <strong>Mati Polytechnic College is everybody's present and future commitment.</strong>
                             </p>
                         </div>
-
                     </div>
                 </div>
 

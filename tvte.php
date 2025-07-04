@@ -10,7 +10,7 @@
     <main class="flex-grow-1">
         <!-- Full-Width Banner Section -->
         <section class="m-0 p-0">
-            <img src="images/banner-crim.png" alt="Bachelor of Technical Vocational Teachers Education Banner"
+            <img src="images/btvted.png" alt="Bachelor of Technical Vocational Teachers Education Banner"
                 class="img-fluid w-100"
                 style="height: 300px; object-fit: cover; display: block;">
         </section>

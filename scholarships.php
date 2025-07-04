@@ -9,11 +9,11 @@
 
     <main class="flex-grow-1">
         <!-- Banner Section -->
-        <section class="m-0 p-0">
+        <!-- <section class="m-0 p-0">
             <img src="images/banner-crim.png" alt="Scholarship Banner"
                 class="img-fluid w-100 shadow-sm"
                 style="height: 300px; object-fit: cover; display: block;">
-        </section>
+        </section> -->
 
         <!-- Scholarship Section -->
         <section class="py-5 bg-white">

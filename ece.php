@@ -10,7 +10,7 @@
     <main class="flex-grow-1">
         <!-- Full-Width Banner Section -->
         <section class="m-0 p-0">
-            <img src="images/banner-crim.png" alt="Bachelor in Elementary Education Banner"
+            <img src="images/early-childhood.png" alt="Bachelor in Elementary Education Banner"
                 class="img-fluid w-100"
                 style="height: 300px; object-fit: cover; display: block;">
         </section>
