@@ -1,77 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Mati Polytechnic College</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="styles.css">
-
-</head>
+<?php include('includes/head.php'); ?>
 
 <body>
-    <nav class="navbar navbar-expand-lg bg-white sticky-top">
-        <div class="container">
-            <a class="navbar-brand" href="#">
-                <img src="images/logo-banner.png" alt="Mati Polytechnic College Logo">
-            </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
-                    </li>
 
-                    <!-- Programs Dropdown -->
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="programDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            Programs
-                        </a>
-                        <ul class="dropdown-menu" aria-labelledby="programDropdown">
-                            <li><a class="dropdown-item" href="#criminology">BS in Criminology</a></li>
-                            <li><a class="dropdown-item" href="#early-childhood">Early Childhood Education</a></li>
-                            <li><a class="dropdown-item" href="#elementary">Elementary Education</a></li>
-                            <li><a class="dropdown-item" href="#techvoc">Technical Vocational Teachers Education</a></li>
-                            <li><a class="dropdown-item" href="#bsba">BS in Business Administration (MM/FM)</a></li>
-                            <li><a class="dropdown-item" href="#hospitality">BS in Hospitality Management</a></li>
-                            <li><a class="dropdown-item" href="#highschool">Complete High School Program (JHS & SHS)</a></li>
-                            <li><a class="dropdown-item" href="#tesda">TESDA NCII/NCIII</a></li>
-                        </ul>
-                    </li>
-
-                    <!-- About Dropdown -->
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="aboutDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            About
-                        </a>
-                        <ul class="dropdown-menu" aria-labelledby="aboutDropdown">
-                            <li><a class="dropdown-item" href="#vmg">VMG</a></li>
-                            <li><a class="dropdown-item" href="#history">History</a></li>
-                            <li><a class="dropdown-item" href="#scholarships">Scholarships</a></li>
-                            <li><a class="dropdown-item" href="#requirements">Enrollment Requirements</a></li>
-                        </ul>
-                    </li>
-
-                    <!-- Login Dropdown -->
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="loginDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            Log-in
-                        </a>
-                        <ul class="dropdown-menu" aria-labelledby="loginDropdown">
-                            <li><a class="dropdown-item" href="https://mpc.srmsportal.com" target="_blank">SRMS</a></li>
-                            <li><a class="dropdown-item" href="https://lms.mpci.edu.ph" target="_blank">LMS</a></li>
-                        </ul>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav>
+    <?php include('includes/nav.php'); ?>
 
     <section class="institution-banner dark-theme">
         <div class="text-center py-4">
@@ -166,50 +100,7 @@
         </div>
     </section>
 
-    <footer class="text-white" style="background-color: #0094ff;">
-        <div class="container py-4">
-            <div class="row">
-                <div class="col-md-3">
-                    <h6 class="fw-bold">Location</h6>
-                    <p>
-                        Don Mariano Marcos Avenue, Brgy. Sainz,<br>
-                        Mati City, Davao Oriental<br>
-                        Philippines<br>
-                        8200
-                    </p>
-                </div>
-                <div class="col-md-3">
-                    <h6 class="fw-bold">Contact No.</h6>
-                    <p>
-                        (087) 388 4820<br>
-                        +63997 825 1919
-                    </p>
-                </div>
-                <div class="col-md-3">
-                    <h6 class="fw-bold">Emails</h6>
-                    <p>
-                        mpci.edu.ph<br>
-                        mpciiicto@gamil.com
-                    </p>
-                </div>
-                <div class="col-md-3">
-                    <h6 class="fw-bold">Social Media</h6>
-                    <p>
-                        Mati Polytechnic College, Inc. (MPCares) Facebook<br>
-                        MPCI ICTO Facebook
-                    </p>
-                </div>
-            </div>
-            <div class="text-center pt-3">
-                Mati Polytechnic College, Inc.<br>
-                &copy;2025 All Rights Reserved
-            </div>
-        </div>
-    </footer>
-
-
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <?php include('includes/footer.php'); ?>
 </body>
 
 </html>
