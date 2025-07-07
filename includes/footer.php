@@ -21,7 +21,7 @@
                 <h6 class="fw-bold">Emails</h6>
                 <p>
                     mpci.edu.ph<br>
-                    mpciiicto@gamil.com
+                    mpciiicto@gmail.com
                 </p>
             </div>
             <div class="col-md-3">

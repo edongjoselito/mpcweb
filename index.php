@@ -82,10 +82,13 @@
                         <img src="images/ads.png" class="d-block w-100 rounded shadow-sm" alt="Announcement 1">
                     </div>
                     <div class="carousel-item">
-                        <img src="images/ads.png" class="d-block w-100 rounded shadow-sm" alt="Announcement 2">
+                        <img src="images/ads2.png" class="d-block w-100 rounded shadow-sm" alt="Announcement 2">
                     </div>
                     <div class="carousel-item">
-                        <img src="images/ads.png" class="d-block w-100 rounded shadow-sm" alt="Announcement 3">
+                        <img src="images/ads3.png" class="d-block w-100 rounded shadow-sm" alt="Announcement 3">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/ads4.png" class="d-block w-100 rounded shadow-sm" alt="Announcement 3">
                     </div>
                 </div>
                 <button class="carousel-control-prev" type="button" data-bs-target="#announcementCarousel" data-bs-slide="prev">
