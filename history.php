@@ -8,9 +8,19 @@
     <?php include('includes/nav.php'); ?>
 
     <main class="flex-grow-1">
+
+        <!-- Banner Section -->
+        <section class="m-0 p-0">
+            <img src="images/history.png" alt="Scholarship Banner"
+                class="img-fluid w-100 shadow-sm"
+                style="height: 300px; object-fit: cover; display: block;">
+        </section>
+
+
         <!-- History Section -->
         <section class="py-5 bg-white">
             <div class="container">
+
 
                 <!-- Title -->
                 <div class="text-center mb-5">

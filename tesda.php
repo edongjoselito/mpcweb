@@ -10,11 +10,11 @@
     <main class="flex-grow-1">
 
         <!-- Full-Width Banner Section -->
-        <!-- <section class="m-0 p-0">
-            <img src="images/banner-crim.png" alt="TESDA Programs Banner"
+        <section class="m-0 p-0">
+            <img src="images/tesda.png" alt="TESDA Programs Banner"
                 class="img-fluid w-100"
                 style="height: 300px; object-fit: cover; display: block;">
-        </section> -->
+        </section>
 
         <!-- Banner Section -->
         <section class="pt-2 pb-4 text-center bg-info text-white">
